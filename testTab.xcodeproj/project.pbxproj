@@ -14,6 +14,10 @@
 		CD0866191B7C80AD00777267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0866181B7C80AD00777267 /* Images.xcassets */; };
 		CD08661C1B7C80AD00777267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD08661A1B7C80AD00777267 /* LaunchScreen.xib */; };
 		CD0866281B7C80AD00777267 /* testTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866271B7C80AD00777267 /* testTabTests.m */; };
+		CD0866331B7C80E400777267 /* TabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866321B7C80E400777267 /* TabVC.m */; };
+		CD0866361B7C810500777267 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866351B7C810500777267 /* ViewController2.m */; };
+		CD0866391B7C82A700777267 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866381B7C82A700777267 /* NavController.m */; };
+		CD08663C1B7C885A00777267 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08663B1B7C885A00777267 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		CD0866211B7C80AD00777267 /* testTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0866261B7C80AD00777267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0866271B7C80AD00777267 /* testTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTabTests.m; sourceTree = "<group>"; };
+		CD0866311B7C80E400777267 /* TabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabVC.h; sourceTree = "<group>"; };
+		CD0866321B7C80E400777267 /* TabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabVC.m; sourceTree = "<group>"; };
+		CD0866341B7C810500777267 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		CD0866351B7C810500777267 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		CD0866371B7C82A700777267 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		CD0866381B7C82A700777267 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		CD08663A1B7C885A00777267 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CD08663B1B7C885A00777267 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 		CD08660A1B7C80AD00777267 /* testTab */ = {
 			isa = PBXGroup;
 			children = (
+				CD0866341B7C810500777267 /* ViewController2.h */,
+				CD0866351B7C810500777267 /* ViewController2.m */,
+				CD0866371B7C82A700777267 /* NavController.h */,
+				CD0866381B7C82A700777267 /* NavController.m */,
+				CD08663A1B7C885A00777267 /* SecondViewController.h */,
+				CD08663B1B7C885A00777267 /* SecondViewController.m */,
+				CD0866311B7C80E400777267 /* TabVC.h */,
+				CD0866321B7C80E400777267 /* TabVC.m */,
 				CD08660F1B7C80AD00777267 /* AppDelegate.h */,
 				CD0866101B7C80AD00777267 /* AppDelegate.m */,
 				CD0866121B7C80AD00777267 /* ViewController.h */,
@@ -221,6 +241,10 @@
 			files = (
 				CD0866141B7C80AD00777267 /* ViewController.m in Sources */,
 				CD0866111B7C80AD00777267 /* AppDelegate.m in Sources */,
+				CD0866361B7C810500777267 /* ViewController2.m in Sources */,
+				CD08663C1B7C885A00777267 /* SecondViewController.m in Sources */,
+				CD0866391B7C82A700777267 /* NavController.m in Sources */,
+				CD0866331B7C80E400777267 /* TabVC.m in Sources */,
 				CD08660E1B7C80AD00777267 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

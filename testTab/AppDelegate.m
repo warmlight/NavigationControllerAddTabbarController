@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TabVC.h"
+#import "NavController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    TabVC *tabCon = [[TabVC alloc] init];
+    self.window.rootViewController = [[NavController alloc] initWithRootViewController:tabCon];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }
