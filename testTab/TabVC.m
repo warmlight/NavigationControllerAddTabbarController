@@ -23,9 +23,14 @@
     [self addChildViewController:vc1];
     [self addChildViewController:vc2];
     self.navigationItem.title  = @"1";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"information_nick"] style:UIBarButtonItemStyleDone target:self action:@selector(rightButtonClick:)];
     self.delegate = self;
+    
 }
 
+- (void)rightButtonClick:(UIBarButtonItem *)rightButton {
+    NSLog(@"right click");
+}
 
 -(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
     self.navigationItem.title = viewController.tabBarItem.title;

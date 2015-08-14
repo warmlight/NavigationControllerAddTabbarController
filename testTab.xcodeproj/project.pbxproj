@@ -18,6 +18,8 @@
 		CD0866361B7C810500777267 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866351B7C810500777267 /* ViewController2.m */; };
 		CD0866391B7C82A700777267 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0866381B7C82A700777267 /* NavController.m */; };
 		CD08663C1B7C885A00777267 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08663B1B7C885A00777267 /* SecondViewController.m */; };
+		CDE4B1C21B7DC2F2006C6AF0 /* information_nick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B1C11B7DC2F2006C6AF0 /* information_nick@2x.png */; };
+		CDE4B1C41B7DC315006C6AF0 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B1C31B7DC315006C6AF0 /* menu@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		CD0866381B7C82A700777267 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		CD08663A1B7C885A00777267 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		CD08663B1B7C885A00777267 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CDE4B1C11B7DC2F2006C6AF0 /* information_nick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information_nick@2x.png"; sourceTree = "<group>"; };
+		CDE4B1C31B7DC315006C6AF0 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				CD0866151B7C80AD00777267 /* Main.storyboard */,
 				CD0866181B7C80AD00777267 /* Images.xcassets */,
 				CD08661A1B7C80AD00777267 /* LaunchScreen.xib */,
+				CDE4B1C11B7DC2F2006C6AF0 /* information_nick@2x.png */,
+				CDE4B1C31B7DC315006C6AF0 /* menu@2x.png */,
 				CD08660B1B7C80AD00777267 /* Supporting Files */,
 			);
 			path = testTab;
@@ -221,6 +227,8 @@
 			files = (
 				CD0866171B7C80AD00777267 /* Main.storyboard in Resources */,
 				CD08661C1B7C80AD00777267 /* LaunchScreen.xib in Resources */,
+				CDE4B1C41B7DC315006C6AF0 /* menu@2x.png in Resources */,
+				CDE4B1C21B7DC2F2006C6AF0 /* information_nick@2x.png in Resources */,
 				CD0866191B7C80AD00777267 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +450,7 @@
 				CD08662D1B7C80AD00777267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD08662E1B7C80AD00777267 /* Build configuration list for PBXNativeTarget "testTabTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +459,7 @@
 				CD0866301B7C80AD00777267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
